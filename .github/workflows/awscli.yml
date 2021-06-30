@@ -47,7 +47,7 @@ jobs:
         uses: crazy-max/ghaction-docker-meta@v2.3.0
         with:
           
-          images: teliaoss/concourse-awscli,ghcr.io/telia-oss/concourse-awscli
+          images: teliaoss/concourse-awscli,ghcr.io/sadrig91/concourse-awscli
           flavor: |
             latest=true
           tags: |
@@ -100,7 +100,7 @@ jobs:
         uses: crazy-max/ghaction-docker-meta@v2.3.0
         with:
           
-          images: teliaoss/concourse-awscli,ghcr.io/telia-oss/concourse-awscli
+          images: teliaoss/concourse-awscli,ghcr.io/sadrig91/concourse-awscli
           flavor: |
             latest=true
           tags: |
